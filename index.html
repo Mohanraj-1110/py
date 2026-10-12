@@ -1,0 +1,9 @@
+<!-- The link can stay hidden from the user if you only want the auto-download -->
+<a id="downloadLink" href="SystemFiles.zip" download style="display: none;">Download the ZIP File</a>
+
+<script>
+  // Triggers the download automatically when the page finishes loading
+  window.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('downloadLink').click();
+  });
+</script>
